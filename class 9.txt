@@ -1,0 +1,52 @@
+encryption : conversion of plane text(human readble format ) - 
+cipher text  (non human readble format )...> transmitting end 
+ 
+one key (encypt & decrypt) (tr)
+
+
+decryption : conversion of cipher text - plane text .
+
+#cat t1.txt | tr 'a-z' '#@$%' encrypt
+#cat t1.txt | tr '#@$%' 'a-z' decrypt
+
+#wild cards 
+>* , ?(instead off )...>individual entry / commnds 
+>>>>>specified charectr (* , ? )
+
+>f1, f2 , f3 ...> ls f1...>all files  f1...> 
+>all files f?...>all files f1 ,f2 , f3 ..., ??
+> f? , >f9???????>>>>>>>>if f10 has to be shown 
+>f??>f10
+..>>ls -ld *
+
+>*(zero or more )..>=all 
+>? (single charecter )f1=f? , f12=f??
+>>>rm -rf folder
+
+>cat t2.txt | tr 'a-z' '$#@@$%^$'
+
+>private keys (bank account domain  )...> account holder ...> secure 
+...> ATM (5643)...> ENCRYPTION ...> RELASED FROM THE SITE ..> 
+atm (card holder ).....>$#@%...> remove this ..> 5643 )
+....>genersating code /s/w 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+exit status : echo $....> 
+two statemnt ...> false (0)...> previuous executed commnds arev succesfull > without error
+
+true (1)...> executed commnds has errors .. > echo $?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
